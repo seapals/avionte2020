@@ -1,0 +1,99 @@
+/*-----------------------Control style---------------------------------------------------------*/
+
+.button {
+  background-color: Transparent;
+  background-image: url(images/HCbg_button.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  width: 85px;
+  height: 35px;
+  color: White;
+  font-weight: bold;
+  cursor: hand;
+
+}
+
+.button_hover {
+  background-color: #FFFFFF;
+  background-image: url(images/button_officeBlue.gif);
+  background-position: left top;
+  background-repeat: no-repeat;
+  width: 85px;
+  height: 35px;
+  color: rgb(255, 134, 47);
+  font-weight: bold;
+  cursor: hand;
+}
+
+.button_small {
+  background: white url(images/HCbg_button_small.jpg) no-repeat left;
+  width: 83px;
+  height: 19px;
+  color: White;
+  font-weight: bold;
+  border: none 0px;
+  cursor: hand;
+}
+
+.button_large {
+  background: white url(images/HCbg_button_large.jpg) no-repeat left;
+  width: 137px;
+  height: 25px;
+  color: White;
+  font-weight: bold;
+  border: none 0px;
+  cursor: hand;
+}
+
+.button_Xlarge {
+  background: white url(images/HCbg_button_xlarge.jpg) no-repeat left;
+  width: 200px;
+  height: 25px;
+  color: White;
+  font-weight: bold;
+  border: none 0px;
+  cursor: hand;
+}
+
+.button[disabled="disabled"] {
+  background: url('images/13_1_bg_button_disabled.png') no-repeat left;
+}
+
+.button_disabled {
+  background: url('images/13_1_bg_button_disabled.png') no-repeat left;
+}
+
+.button_small[disabled="disabled"] {
+  background: url('images/13_1_bg_button_small_disabled.png') no-repeat left;
+}
+
+.button_small_disabled {
+  background: url('images/13_1_bg_button_small_disabled.png') no-repeat left;
+}
+
+.button_large[disabled="disabled"] {
+  background: url('images/13_1_bg_button_large_disabled.png') no-repeat left;
+}
+
+.button_large_disabled {
+  background: url('images/13_1_bg_button_large_disabled.png') no-repeat left;
+}
+
+.button_Xlarge[disabled="disabled"] {
+  background: url('images/13_1_bg_button_xlarge_disabled.png') no-repeat left;
+}
+
+.button_Xlarge_disabled {
+  background: url('images/13_1_bg_button_xlarge_disabled.png') no-repeat left;
+}
+
+.search_button {
+  border-style: none;
+  border-color: inherit;
+  border-width: medium;
+  background: url('images/searchButton.jpg') no-repeat left bottom;
+  width: 28px;
+  height: 30px;
+
+  cursor: hand;
+}
