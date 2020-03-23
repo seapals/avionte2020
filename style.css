@@ -1,2 +1,27 @@
-@import url(/Users/Chris/Documents/Dev/Apps/Avionte/Avionte Portal/HireCall_New_16_2.css);
+@import url("../HireCall Portal - Job Board - Job Search_files/HireCall_New_16_2.css");
+body {
+  background-image: none;
+}
+
+#header {
+  background: none;
+}
+
+#header_leftImg {
+  background: none;
+}
+
+.applicant_container {
+  width: 50%;
+  /* text-align: left; */
+  /* min-width: 915px; */
+  margin: 0px;
+  background-color: #0000;
+}
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
 /*# sourceMappingURL=style.css.map */

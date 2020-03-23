@@ -1,49 +1,75 @@
-// body {
-//   background-image: url(images/HCmain_bg.jpg);
-//   /*background-color:rgb(77,87,146);*/
-//   margin: 0px;
-//   padding: 0px;
-//   /*min-width:900px;*/
-//   height: 100%;
+body {
+  background-image: none;
+}
 
-//   /* scroll bar style --*/
-//   scrollbar-arrow-color: rgb(255, 134, 47);
-//   scrollbar-face-color: rgb(255, 219, 169);
+#header {
+  background: none;
+}
 
-//   font-family: Arial, Helvetica, sans-serif !important;
-//   font-size: large !important;
-
-// }
-
-// html {
-//   margin: 0;
-//   padding: 0;
-//   height: 100%;
-// }
+#header_leftImg  
+{
+  background: none;
+}
 
 
+.applicant_container {
+  width: 50%;
+  /* text-align: left; */
+  /* min-width: 915px; */
+  margin: 0px;
+  background-color: #0000;
+}
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media only screen and (max-width: 760px)  {
 
-// .header_logo_style {
-//   height: 90px;
-//   border-width: 0px;
-//   CURSOR: pointer;
-// }
+	// table { 
+	//   width: 100%; 
+	// }
 
-// .header_link_style {
-//   border-width: 0px;
-//   CURSOR: pointer;
-// }
+	// /* Force table to not be like tables anymore */
+	// table, thead, tbody, th, td, tr { 
+	// 	display: block;
+  // }
+  
+  // .table_outer {
+  //   width: 70%;
+  // }
+	
+	// /* Hide table headers (but not display: none;, for accessibility) */
+	// thead tr { 
+	// 	position: absolute;
+	// 	top: -9999px;
+	// 	left: -9999px;
+	// }
+	
+	// tr { border: 1px solid #ccc; }
+	
+	// td { 
+	// 	/* Behave  like a "row" */
+	// 	border: none;
+	// 	border-bottom: 1px solid #eee; 
+	// 	position: relative;
+	// 	padding-left: 50%; 
+	// }
 
-// .radio_button_style {
-//   border: 0px;
-// }
+	// td:before { 
+	// 	/* Now like a table header */
+	// 	position: absolute;
+	// 	/* Top/left values mimic padding */
+	// 	top: 6px;
+	// 	left: 6px;
+	// 	width: 45%; 
+	// 	padding-right: 10px; 
+	// 	white-space: nowrap;
+	// 	/* Label the data */
+	// 	content: attr(data-column);
 
-// .checkbox_style {}
+	// 	color: #000;
+	// 	font-weight: bold;
+	// }
 
-
-// .ig_CaribbeanControl {
-//   font-size: 18px !important;
-// }
-
-
-// /* end validation summary */
+}
