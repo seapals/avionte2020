@@ -1,7 +1,7 @@
 
 body
 {
-	background-image: url(images/HCmain_bg.jpg);
+	background-image: url(https://hir.aviontego.com/portals/Style/images/HCmain_bg.jpg);
 	/*background-color:rgb(77,87,146);*/
 	margin:0px;
 	padding:0px;
@@ -77,7 +77,7 @@ html
 	width:100%;
 	height:90px;
 	margin:0px 0px 0px 0px;
-	background: url(images/HCtopbar_bg.jpg) repeat-x ;
+	background: url(https://hir.aviontego.com/portals/Style/images/HCtopbar_bg.jpg) repeat-x ;
 	
     z-index:9999;
 }
@@ -100,7 +100,7 @@ html
 	height: 90px;
 	top: 0px;
 	left: 0px;
-	background: url(images/HCtopbar_left.jpg) no-repeat left;
+	background: url(https://hir.aviontego.com/portals/Style/images/HCtopbar_left.jpg) no-repeat left;
 }
 
 #header_lnkHelp 
@@ -128,7 +128,7 @@ html
 #vc-main{min-height:100%; position:relative;}
 
 
-#secondaryNav { position: relative; width:auto; height: 65px; background-image: url(images/HCsecondaryNavBG.png); background-repeat: repeat-x; z-index: 9;}
+#secondaryNav { position: relative; width:auto; height: 65px; background-image: url(https://hir.aviontego.com/portals/Style/images/HCsecondaryNavBG.png); background-repeat: repeat-x; z-index: 9;}
 #secondaryNav_right { position: relative; float: right; right: 0px; z-index: 1; visibility:hidden; }	
  
 #masterSign
@@ -204,7 +204,7 @@ html
 	margin:0px;
 	height:40px;
 	width:100%;
-    background: url(images/HCgridheader.png) repeat-x left top;
+    background: url(https://hir.aviontego.com/portals/Style/images/HCgridheader.png) repeat-x left top;
 }
 #mainContentHeader p{float:right; color:Black; font-weight:bold;}  /*temp test*/
 #mainContent p{float:right;}
@@ -240,7 +240,7 @@ html
     margin-left: auto;
     margin-right: auto;
    
-    /*background-image:url(images/logo.jpg);*/
+    /*background-image:url(https://hir.aviontego.com/portals/Style/images/logo.jpg);*/
      
 }
 
@@ -301,7 +301,7 @@ html
 	margin:0px;
 	height:40px;
 	width:100%;
-    background: url(images/HCgridheader.png) repeat-x left top;
+    background: url(https://hir.aviontego.com/portals/Style/images/HCgridheader.png) repeat-x left top;
 }
 
 #secondaryContentArea
@@ -309,7 +309,7 @@ html
     text-align: left;
 }
 
-#footer { clear: both; width: 100%; height:56px; background-image: url(images/HCfooter_bg.jpg);
+#footer { clear: both; width: 100%; height:56px; background-image: url(https://hir.aviontego.com/portals/Style/images/HCfooter_bg.jpg);
            background-repeat: repeat-x; position:absolute; bottom:0; margin:0px; padding:0px; bottom:0px; }
 
 #footer_right { position:absolute; float:right; right: 0px; height: 56px; width:65%; color:White; text-align:left;visibility:hidden;}
@@ -333,7 +333,7 @@ html
   .button
 {
     background-color:Transparent;
-    background-image: url(images/HCbg_button.jpg);
+    background-image: url(https://hir.aviontego.com/portals/Style/images/HCbg_button.jpg);
     background-position:left top;
     background-repeat:no-repeat;
     width: 85px;
@@ -347,7 +347,7 @@ html
 .button_hover
 {
 	background-color: #FFFFFF;
-    background-image: url(images/button_officeBlue.gif);
+    background-image: url(https://hir.aviontego.com/portals/Style/images/button_officeBlue.gif);
     background-position:left top;
     background-repeat:no-repeat;
     width: 85px;
@@ -359,7 +359,7 @@ html
 
 .button_small
 {
-	background: white url(images/HCbg_button_small.jpg) no-repeat left ;   
+	background: white url(https://hir.aviontego.com/portals/Style/images/HCbg_button_small.jpg) no-repeat left ;   
 	width:83px;
 	height:19px;
 	color:White;
@@ -370,7 +370,7 @@ html
 
 .button_large
 {
-	background: white url(images/HCbg_button_large.jpg) no-repeat left ;   
+	background: white url(https://hir.aviontego.com/portals/Style/images/HCbg_button_large.jpg) no-repeat left ;   
 	width:137px;
 	height:25px;
 	color:White;
@@ -381,7 +381,7 @@ html
 
 .button_Xlarge
 {
-	background: white url(images/HCbg_button_xlarge.jpg) no-repeat left ;   
+	background: white url(https://hir.aviontego.com/portals/Style/images/HCbg_button_xlarge.jpg) no-repeat left ;   
 	width:200px;
 	height:25px; 
 	color:White;
@@ -391,35 +391,35 @@ html
 }
 
 .button[disabled="disabled"] {
-    background: url('images/13_1_bg_button_disabled.png') no-repeat left;
+    background: url(https://hir.aviontego.com/portals/Style/images/13_1_bg_button_disabled.png') no-repeat left;
 }
 
 .button_disabled {
-    background: url('images/13_1_bg_button_disabled.png') no-repeat left;
+    background: url(https://hir.aviontego.com/portals/Style/images/13_1_bg_button_disabled.png') no-repeat left;
 }
 
 .button_small[disabled="disabled"] {
-    background: url('images/13_1_bg_button_small_disabled.png') no-repeat left;
+    background: url(https://hir.aviontego.com/portals/Style/images/13_1_bg_button_small_disabled.png') no-repeat left;
 }
 
 .button_small_disabled {
-    background: url('images/13_1_bg_button_small_disabled.png') no-repeat left;
+    background: url(https://hir.aviontego.com/portals/Style/images/13_1_bg_button_small_disabled.png') no-repeat left;
 }
 
 .button_large[disabled="disabled"] {
-    background: url('images/13_1_bg_button_large_disabled.png') no-repeat left;
+    background: url(https://hir.aviontego.com/portals/Style/images/13_1_bg_button_large_disabled.png') no-repeat left;
 }
 
 .button_large_disabled {
-    background: url('images/13_1_bg_button_large_disabled.png') no-repeat left;
+    background: url(https://hir.aviontego.com/portals/Style/images/13_1_bg_button_large_disabled.png') no-repeat left;
 }
 
 .button_Xlarge[disabled="disabled"] {
-    background: url('images/13_1_bg_button_xlarge_disabled.png') no-repeat left;
+    background: url(https://hir.aviontego.com/portals/Style/images/13_1_bg_button_xlarge_disabled.png') no-repeat left;
 }
 
 .button_Xlarge_disabled {
-    background: url('images/13_1_bg_button_xlarge_disabled.png') no-repeat left;
+    background: url(https://hir.aviontego.com/portals/Style/images/13_1_bg_button_xlarge_disabled.png') no-repeat left;
 }
 
 .search_button
@@ -427,7 +427,7 @@ html
     border-style: none;
     border-color: inherit;
     border-width: medium;
-    background: url('images/searchButton.jpg') no-repeat left bottom;
+    background: url(https://hir.aviontego.com/portals/Style/images/searchButton.jpg') no-repeat left bottom;
     width:28px;
         height:30px;
         
@@ -510,7 +510,7 @@ table .table_title
 	/*background-color:rgb(255,219,169);*/
 	text-align: center; 
 	font-weight:bold;
-	background: url(images/title_header.jpg) repeat-x left top;
+	background: url(https://hir.aviontego.com/portals/Style/images/title_header.jpg) repeat-x left top;
 }
 table .table_label
 {
@@ -549,7 +549,7 @@ table .table_normal .td_last
     border-width:1px;
     border-style:solid;
     
-    background-image: url('images/webgroupbox.gif');
+    background-image: url(https://hir.aviontego.com/portals/Style/images/webgroupbox.gif');
     background-position:bottom;
     background-repeat:repeat-x;
       
@@ -592,7 +592,7 @@ table .table_normal .td_last
 
 .te_grid_header
 {
-    background-image:url(images/webgrid_header_blue_gradient.png);
+    background-image:url(https://hir.aviontego.com/portals/Style/images/webgrid_header_blue_gradient.png);
 }
 
 .te_columnHeader
@@ -636,19 +636,19 @@ table .table_normal .td_last
 
 #subMenu_header_left{ position: relative; left: 0px; float: left; width: 8px; height: 25px;}
 
-#subMenu_header_middle { position: relative; left: 0px; float: left; width: 221px; height: 25px; background-image: url(images/top.png); background-repeat: repeat-x;}
+#subMenu_header_middle { position: relative; left: 0px; float: left; width: 221px; height: 25px; background-image: url(https://hir.aviontego.com/portals/Style/images/top.png); background-repeat: repeat-x;}
 
 #subMenu_header_right {position: relative; right: 0px; float: right; width: 17px; height: 25px;}
 
 
-#subMenu_content{padding-left: 12px; padding-right: 30px; background-image: url(images/subMenu_bg.png); background-repeat: repeat-y; }
+#subMenu_content{padding-left: 12px; padding-right: 30px; background-image: url(https://hir.aviontego.com/portals/Style/images/subMenu_bg.png); background-repeat: repeat-y; }
 	
 	
 #subMenu_footer{width: 246px; height: 18px; }
 
 #subMenu_footer_left{position: relative; left: 0px; float: left; width: 8px; height: 18px;}
 
-#subMenu_footer_middle{position: relative; left: 0px; float: left; width: 221px; height: 18px; background-image: url(images/bottom.png); background-repeat: repeat-x;}
+#subMenu_footer_middle{position: relative; left: 0px; float: left; width: 221px; height: 18px; background-image: url(https://hir.aviontego.com/portals/Style/images/bottom.png); background-repeat: repeat-x;}
 
 #subMenu_footer_right{position: relative; right: 0px; float: right; width: 17px; height: 18px;}
 
@@ -717,7 +717,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
 {
 	color: rgb(255,134,47);
 	font-weight:bold;
-    background-image: url(images/check.gif);
+    background-image: url(https://hir.aviontego.com/portals/Style/images/check.gif);
     background-position: top right ;
     background-repeat: no-repeat;
 }
@@ -762,7 +762,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
 	cursor:pointer;
 	
 	/*background-color:white;
-	background-image: url(images/igsch_xpblueup.gif);
+	background-image: url(https://hir.aviontego.com/portals/Style/images/igsch_xpblueup.gif);
 	background-position:right center;
 	background-repeat:no-repeat;
     border:solid 1px #EAF2FB;*/
@@ -822,7 +822,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
 
 .WebToolbar_Selected
 {
-	/*background-image: url(images/check.gif);
+	/*background-image: url(https://hir.aviontego.com/portals/Style/images/check.gif);
 	background-position:right center;
 	background-repeat: no-repeat;*/
 	
@@ -863,7 +863,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
 	border-left: solid 0px transparent;
 	height:26px;
     */
-    background-image: url('images/webgroupbox.gif');
+    background-image: url(https://hir.aviontego.com/portals/Style/images/webgroupbox.gif');
     background-position:bottom;
     background-repeat:repeat-x;
 }
@@ -912,7 +912,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
 {
     height: 24px;
     border: solid 1px #B0C9EA;
-    background-image: url(images/Office2007_Grid_Header_gradient.png);
+    background-image: url(https://hir.aviontego.com/portals/Style/images/Office2007_Grid_Header_gradient.png);
     background-repeat:repeat-x repeat-y;
     text-align: center;
 }
@@ -920,7 +920,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
 .GridView_HeaderStyle_TimeEntry
 {
     border: solid 1px #B0C9EA;
-    background-image: url(images/corner_top_middle.png);
+    background-image: url(https://hir.aviontego.com/portals/Style/images/corner_top_middle.png);
     background-repeat:repeat-x;
     text-align: center;
 }
@@ -953,7 +953,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
     
     color:Orange;
     text-decoration:underline;
-    background-image:url(images/igg_header.gif);
+    background-image:url(https://hir.aviontego.com/portals/Style/images/igg_header.gif);
 }
 
 .WebPanel_Header_Expand
@@ -961,7 +961,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
     font-size:small;
     
     color: Navy;
-    background-image: url(images/igg_header2.gif);
+    background-image: url(https://hir.aviontego.com/portals/Style/images/igg_header2.gif);
 }
 
 .webgrid_cell_button
@@ -1002,7 +1002,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
     height:35px;
     background-color:Transparent;
 
-    background-image: url('images/corner_top_middle.png');
+    background-image: url(https://hir.aviontego.com/portals/Style/images/corner_top_middle.png');
     background-position:left top;
     background-repeat:repeat-x;
 }
@@ -1014,7 +1014,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
     top: 0px;
     left: 0px;
     
-    background-image: url('images/corner_top_left.png');
+    background-image: url(https://hir.aviontego.com/portals/Style/images/corner_top_left.png');
     background-position: left top;
     background-repeat: no-repeat;
     
@@ -1029,7 +1029,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
     right:0px;
     top:0px;
     
-    background-image: url('images/corner_top_right.png');
+    background-image: url(https://hir.aviontego.com/portals/Style/images/corner_top_right.png');
     background-position:right top;
     background-repeat: no-repeat;
     
@@ -1073,7 +1073,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
 
 .groupbox_right_top_corner_indicator
 {
-    background-image: url('images/corner_top_right.png');
+    background-image: url(https://hir.aviontego.com/portals/Style/images/corner_top_right.png');
     background-position:right top;
     background-repeat: no-repeat;
     
@@ -1084,7 +1084,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
 .groupbox_right_top_corner_indicator2
 {
    
-    background-image: url('images/corner_top_right.png');
+    background-image: url(https://hir.aviontego.com/portals/Style/images/corner_top_right.png');
     background-position:right top;
     background-repeat: no-repeat;
     
@@ -1148,7 +1148,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
     margin-top: 5px;
     cursor: pointer;
    
-    background-image: url(images/Office2007_Grid_Header_gradient.png);
+    background-image: url(https://hir.aviontego.com/portals/Style/images/Office2007_Grid_Header_gradient.png);
     background-repeat:repeat-x;
 }
 
@@ -1240,7 +1240,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
 /* #March Release*/
 .button_largeEX
 {
-	background:url(images/HCbg_button_xlarge.jpg) no-repeat left ;   
+	background:url(https://hir.aviontego.com/portals/Style/images/HCbg_button_xlarge.jpg) no-repeat left ;   
 	width:180px;
 	height:25px;
 	color:White;
@@ -1262,7 +1262,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
 {
     height: 24px;
     border: solid 1px #B0C9EA;
-    background-image: url(images/Office2007_Grid_Header_gradient.png);
+    background-image: url(https://hir.aviontego.com/portals/Style/images/Office2007_Grid_Header_gradient.png);
     background-repeat:repeat-x repeat-y;
     
 }
@@ -1281,7 +1281,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
 	 width: 100%;
     background-repeat:no-repeat;
     background-color:White;
-    background-image: url(images/EvaluationCompanyLogo.png);
+    background-image: url(https://hir.aviontego.com/portals/Style/images/EvaluationCompanyLogo.png);
     
 }
 
@@ -1299,7 +1299,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
 	border-bottom: solid 2px #000000;
     background-color: #D5D5D5;
     text-align: center;
-    background-image: url('images/add_new.gif');
+    background-image: url(https://hir.aviontego.com/portals/Style/images/add_new.gif');
     background-position:bottom;
     background-repeat:repeat-x;
 }
@@ -1341,7 +1341,7 @@ left: 350px; z-index: 99; margin: 0px; padding: 0px; text-align: center; width: 
     border: solid 2px #000000;
     background-color: #D5D5D5;
     text-align: center;
-    background-image: url('images/add_new.gif');
+    background-image: url(https://hir.aviontego.com/portals/Style/images/add_new.gif');
     background-position:bottom;
     background-repeat:repeat-x;
 }

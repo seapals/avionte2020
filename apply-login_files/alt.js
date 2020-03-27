@@ -28,7 +28,7 @@ function injectClass(targetType, targetName, className) {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-  injectClass("tag", "table", "table");
-  injectClass("tag", "table", "table-default");
+  injectClass("tag", "table", "dog");
+  console.log("dog");
 
 });
