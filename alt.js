@@ -35,10 +35,15 @@ if (window.jQuery) {
 }
 
 
-// document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
+
+  if (window.jQuery) {  
+    console.log("dog"); // jQuery is loaded  
+  } else {
+    console.log("cat");
+  }
   
-  
-//   injectClass("tag", "table", "table");
+  // injectClass("tag", "table", "table");
 
   
-// });
+});
