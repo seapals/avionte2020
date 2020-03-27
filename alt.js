@@ -28,7 +28,12 @@
 //   }
 // }
 
-console.log("hotdog");
+if (window.jQuery) {  
+  console.log("dog"); // jQuery is loaded  
+} else {
+  console.log("cat");
+}
+
 
 // document.addEventListener("DOMContentLoaded", () => {
   
