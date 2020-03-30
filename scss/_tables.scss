@@ -1,3 +1,54 @@
+/*
+
+Table edits
+
+*/
+
+// Remove divs used for rounded corner images
+.groupbox_left_top_corner, .groupbox_right_top_corner {
+  display: none;
+}
+
+.tr_td_last, .tr_last {
+  display: none;
+}
+
+/*
+
+Table layout
+
+*/
+
+.table_normal tbody {
+	@include make-container();
+
+	tr {
+		@include make-row();
+	}
+
+	tr td {
+    &:first-of-type {
+      padding-bottom: 0;
+    }
+    
+    @include make-col-ready();
+
+		@include media-breakpoint-up(md) {
+			@include make-col(12);
+		}
+		@include media-breakpoint-up(lg) {
+			@include make-col(6);
+		}
+	}
+}
+
+
+/*
+
+Table legacy
+
+*/
+
 /*---------------------- table Style -------------------------*/
 .tbody_background {
   /*background-color: rgb(199, 216, 237);*/
@@ -12,7 +63,8 @@
 
 /*orange border*/
 .table_outer {
-  margin: 5px;
+  // margin: 5px;
+  margin: 0;
 
   /*border: solid 1px rgb(255,134,47);*/
 
@@ -33,7 +85,7 @@ table .table_title {
   /*background-color:rgb(255,219,169);*/
   text-align: center;
   font-weight: bold;
-  background: url(https://hir.aviontego.com/portals/Style/images/title_header.jpg) repeat-x left top;
+  background: url('https://hir.aviontego.com/portals/Style/images/title_header.jpg') repeat-x left top;
 }
 
 table .table_label {
@@ -41,9 +93,11 @@ table .table_label {
 }
 
 table .table_normal td {
-  border-bottom: solid 1px Silver;
-  border-right: solid 1px Silver;
-  padding-left: 5px;
+  // border-bottom: solid 1px Silver;
+  // border-right: solid 1px Silver;
+  border: none;
+  // padding-left: 5px;
+  padding-left: 0;
 
   /*line-height:30px;*/
 
@@ -59,25 +113,26 @@ table .table_normal .tr_td_last {
 }
 
 table .table_normal .td_last {
-  border-bottom: solid 1px Silver;
+  border-bottom: none;
   border-right: 0px;
 }
 
 .table_with_background {
-  border-color: rgb(209, 227, 248);
-  border-width: 1px;
-  border-style: solid;
+  // border-color: rgb(209, 227, 248);
+  // border-width: 1px;
+  // border-style: solid;
+  border: none;
 
-  background-image: url(https://hir.aviontego.com/portals/Style/images/webgroupbox.gif');
+  // background-image: url('https://hir.aviontego.com/portals/Style/images/webgroupbox.gif');
   background-position: bottom;
   background-repeat: repeat-x;
+  background-image: none;
 
 }
 
-
 .subhead {
   font-family: Verdana, Arial, sans-serif;
-  // font-size: 15px;
+  font-size: 15px;
   font-weight: bold;
   color: Maroon;
   line-height: 130%;
@@ -89,48 +144,50 @@ table .table_normal .td_last {
 
 .subhead_small {
   font-family: Verdana, Arial, sans-serif;
-  // font-size: 13px;
+  font-size: 13px;
   font-weight: bold;
   color: Maroon;
-  // line-height: 130%;
-  // height: 21px;
+  line-height: 130%;
+  height: 21px;
 }
 
 .te_status_data {
-//  font-size: small;
-  // font-family: Calibri;
+  font-size: small;
+  font-family: Calibri;
 }
 
 .te_status_header {
   font-weight: bold;
-//  font-size: small;
-  // font-family: Calibri;
+  font-size: small;
+  font-family: Calibri;
 }
 
 .te_grid_header {
-  background-image: url(https://hir.aviontego.com/portals/Style/images/webgrid_header_blue_gradient.png);
+  background-image: url('https://hir.aviontego.com/portals/Style/images/webgrid_header_blue_gradient.png');
 }
 
 .te_columnHeader {
   color: White;
-  // font-size: 12;
+  font-size: 12;
   font-weight: bold;
 }
 
 .te_row_header {
   color: Maroon;
-  // font-size: 11px;
+  font-size: 11px;
   font-weight: bold;
 }
 
 .te_date {
-  // font-size: 10px;
+  font-size: 10px;
 }
 
 .te_status_checkbox {}
 
 .te_titleBig {
   color: Maroon;
-  // font-size: 14px;
+  font-size: 14px;
   font-weight: bold;
 }
+
+/*---------------------- table Style end -------------------------*/

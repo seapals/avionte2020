@@ -1,0 +1,118 @@
+.ig_CaribbeanControl
+{
+	background-color:White;
+	font-size:small;
+	font-family: Calibri;
+	cursor:default;
+	color:Black;
+}
+
+
+.ig_CaribbeanItem
+{
+	background-color:White;
+	font-size:small;
+	font-family: Calibri;
+	padding-left:1px;
+}
+
+
+.ig_CaribbeanButton
+{
+	cursor:hand;
+}
+
+
+.ig_CaribbeanButtonHover
+{
+}
+
+
+.ig_CaribbeanButtonPressed
+{
+}
+
+
+.ig_CaribbeanButtonDisabled
+{
+}
+
+
+.ig_CaribbeanHover
+{
+}
+
+
+.ig_CaribbeanSelected
+{
+}
+
+
+.ig_CaribbeanDisabled
+{
+}
+
+
+.ig_CaribbeanHeader
+{
+}
+
+
+.ig_CaribbeanFooter
+{
+}
+
+
+.ig_CaribbeanEditWithButtons
+{
+	font-size:small;
+	font-family: Calibri;
+}
+
+
+.ig_CaribbeanEdit
+{
+	font-size:small;
+	font-family: Calibri;
+}
+
+
+.ig_CaribbeanEditInContainer
+{
+	font-size:small;
+	font-family: Calibri;
+}
+
+
+.ig_CaribbeanAlt
+{
+	border-top:solid 1px #E3EFFF;
+	border-right:solid 0px #FFFFFF;
+	border-bottom:solid 1px #E3EFFF;
+	border-left:solid 0px #FFFFFF;
+}
+
+
+.ig_CaribbeanDropDown
+{
+	font-size:small;
+	font-family: Calibri;
+}
+
+
+.ig_CaribbeanEditSelected
+{
+	font-size:small;
+	font-family: Calibri;
+}
+
+
+Body
+{
+	background-color:White;
+	font-size:small;
+	font-family: Calibri;
+	cursor:default;
+}
+
+
