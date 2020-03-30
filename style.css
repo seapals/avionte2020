@@ -10974,12 +10974,16 @@ Table edits
   display: none;
 }
 
+table * {
+  border: none;
+}
+
 /*
 
 Table layout
 
 */
-.table_normal tbody {
+.table-grid tbody {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -10987,7 +10991,7 @@ Table layout
   margin-left: auto;
 }
 
-.table_normal tbody tr {
+.table-grid tbody tr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10997,19 +11001,19 @@ Table layout
   margin-left: -15px;
 }
 
-.table_normal tbody tr td {
+.table-grid tbody tr td {
   position: relative;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
 }
 
-.table_normal tbody tr td:first-of-type {
+.table-grid tbody tr td:first-of-type {
   padding-bottom: 0;
 }
 
 @media (min-width: 768px) {
-  .table_normal tbody tr td {
+  .table-grid tbody tr td {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
@@ -11018,12 +11022,19 @@ Table layout
 }
 
 @media (min-width: 992px) {
-  .table_normal tbody tr td {
+  .table-grid tbody tr td {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
     max-width: 50%;
   }
+}
+
+#ctl00_ContentPlaceHolder1_PersonalInfo1_WebPanel1_ContactMethodList1_GridView1_ctl02_ContactMethodImage,
+#ctl00_ContentPlaceHolder1_PersonalInfo1_WebPanel1_ContactMethodList1_GridView1_ctl03_ContactMethodImage,
+#ctl00_ContentPlaceHolder1_PersonalInfo1_WebPanel1_ContactMethodList1_GridView1_ctl04_ContactMethodImage,
+#ctl00_ContentPlaceHolder1_PersonalInfo1_WebPanel1_ContactMethodList1_GridView1_ctl05_ContactMethodImage {
+  display: none;
 }
 
 /*

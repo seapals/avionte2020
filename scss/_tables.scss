@@ -13,13 +13,19 @@ Table edits
   display: none;
 }
 
+// Remove all borders
+
+table * {
+  border: none;
+}
+
 /*
 
 Table layout
 
 */
 
-.table_normal tbody {
+.table-grid tbody {
 	@include make-container();
 
 	tr {
@@ -42,6 +48,23 @@ Table layout
 	}
 }
 
+// #ctl00ContentPlaceHolder1PersonalInfo1WebPanel1_content > div > div.groupbox_body_style > div > table > tbody > tr > td {
+//   &:nth-child(1) {
+//     border: 1px solid green;
+//   }
+//   &:nth-child(2) {
+//     border: 1px solid blue;
+//   }
+// }
+
+// Hide images in Personal Info table
+#ctl00_ContentPlaceHolder1_PersonalInfo1_WebPanel1_ContactMethodList1_GridView1_ctl02_ContactMethodImage,
+#ctl00_ContentPlaceHolder1_PersonalInfo1_WebPanel1_ContactMethodList1_GridView1_ctl03_ContactMethodImage,
+#ctl00_ContentPlaceHolder1_PersonalInfo1_WebPanel1_ContactMethodList1_GridView1_ctl04_ContactMethodImage,
+#ctl00_ContentPlaceHolder1_PersonalInfo1_WebPanel1_ContactMethodList1_GridView1_ctl05_ContactMethodImage
+{
+  display:none;
+}
 
 /*
 
