@@ -1,3 +1,9 @@
 #mainContentHeader, #ctl00ContentPlaceHolder1CheckBeforeApply1WebPanel1_header {
 	display: none;
 }
+
+// Gives form buttons some inside padding
+.ApplicantUserControl {
+	@include make-row();
+	margin: 0;
+}

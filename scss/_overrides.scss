@@ -35,16 +35,19 @@ body {
 	font-size: small;
 }
 
+input {
+	width: 100%;
+}
+
 #vc-main {
 	min-height: 100%;
 	// position: relative;
 	position: inherit;
-	background-color: magenta;
 }
 
 #mainContentAll {
 	width: 100%;
-	background-color: cyan;
+	
 }
 
 #mainContentLeft {
@@ -52,26 +55,46 @@ body {
 	// width: 98%;
 	width: 100%;
 	height: 100%;
-	margin: 0px;
-	padding: 5px 5px 5px 5px;
-	border-bottom-width: 1px;
-	border-left-width: 1px;
-	border-right-width: 1px;
-	border-top-width: 1px;
-	border-left-color: rgb(209, 227, 248);
-	border-right-color: rgb(209, 227, 248);
-	border-top-color: rgb(209, 227, 248);
-	border-bottom-color: rgb(209, 227, 248);
-	border-style: solid;
+	// margin: 0px;
+	margin: inherit;
+	// padding: 5px 5px 5px 5px;
+	padding: 0;
+	// border-bottom-width: 1px;
+	// border-left-width: 1px;
+	// border-right-width: 1px;
+	// border-top-width: 1px;
+	// border-left-color: rgb(209, 227, 248);
+	// border-right-color: rgb(209, 227, 248);
+	// border-top-color: rgb(209, 227, 248);
+	// border-bottom-color: rgb(209, 227, 248);
+	// border-style: solid;
+
+	border-bottom-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-top-width: 0;
+	border-left-color: none;
+	border-right-color: none;
+	border-top-color: none;
+	border-bottom-color: none;
 
 	z-index: 99999999;
-	margin-left: auto;
-	margin-right: auto;
+	// margin-left: auto;
+	// margin-right: auto;
+	margin-left: inherit;
+	margin-right: inherit;
 
 	/*background-image:url('https://hir.aviontego.com/portals/Style/images/logo.jpg');*/
 }
 
-
+#header {
+	width: 100%;
+	height: 90px;
+	margin: 0px 0px 0px 0px;
+	margin: 0;
+	background: none;
+	z-index: 9999;
+}
 
 #header_leftImg {
 	// position: absolute;
@@ -87,14 +110,14 @@ body {
 	height: 90px;
 	top: 0px;
 	left: 0px;
-	background: url('https://hir.aviontego.com/portals/Style/images/HCtopbar_left.jpg') no-repeat left;
+	background: none;
 }
 
 #header_logo {
 	width: 100%;
 	height: 90px;
-	position: relative;
-	left: 3px;
+	position: none;
+	left: 0px;
 	top: 0px;
 }
 
@@ -130,10 +153,10 @@ body {
 	text-align: left;
 	/*left:50%;
 margin-left:-475px;*/
-	margin-bottom: 56px;
-	padding: 0px 5px 5px 5px;
+	margin-bottom: none;
+	padding: 0;
 	// background-color: white;
-	min-height: 515px;
+	min-height: 0;
 	z-index: 99999;
 }
 
@@ -160,6 +183,13 @@ margin-left:-475px;*/
 	visibility: hidden;
 }
 
+.groupbox_body_inner_style {
+	border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
 /*
 
 Div resets
@@ -184,5 +214,5 @@ Div resets
 }
 
 div {
-	border: 1px solid red;
+	border: 1px solid teal;
 }

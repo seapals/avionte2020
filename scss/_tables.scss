@@ -19,32 +19,50 @@ table * {
   border: none;
 }
 
+.table td {
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+#mainContentAll > table > tbody > tr > td {
+  padding: 0;
+}
+
 /*
 
 Table layout
 
 */
 
-.table-grid tbody {
-	@include make-container();
+// .groupbox_body_inner_style table tbody tr td{
+//   @include make-container();
+// }
+
+.groupbox_body_inner_style { 
+
+  tbody {
+    // @include make-container();
+  }
 
 	tr {
-		@include make-row();
-	}
+    @include make-row();
+    border: 1px solid green;
+    margin-bottom: 1em;
+  }
 
-	tr td {
-    &:first-of-type {
-      padding-bottom: 0;
-    }
-    
+	td {
+    border: 1px dotted blue;
+
     @include make-col-ready();
 
 		@include media-breakpoint-up(md) {
-			@include make-col(12);
-		}
-		@include media-breakpoint-up(lg) {
 			@include make-col(6);
 		}
+		// @include media-breakpoint-up(lg) {
+		// 	@include make-col(6);
+		// }
 	}
 }
 
