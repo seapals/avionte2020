@@ -1,0 +1,46 @@
+▶ $[".scss"]:
+body {
+  background-image: url(images/HCmain_bg.jpg);
+  /*background-color:rgb(77,87,146);*/
+  margin: 0px;
+  padding: 0px;
+  /*min-width:900px;*/
+  height: 100%;
+    break;
+  /* scroll bar style --*/
+  scrollbar-arrow-color: rgb(255, 134, 47);
+  scrollbar-face-color: rgb(255, 219, 169);
+
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: large !important;
+
+}
+br
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+br
+.header_logo_style {
+  height: 90px;
+  border-width: 0px;
+  CURSOR: pointer;
+}
+br
+.header_link_style {
+  border-width: 0px;
+  CURSOR: pointer;
+}
+br
+.radio_button_style {
+  border: 0px;
+}
+br
+.checkbox_style {}
+br
+.ig_CaribbeanControl {
+  font-size: 18px !important;
+}
+br
+/* e驗證結束總結 */
