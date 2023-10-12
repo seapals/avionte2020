@@ -1,8 +1,0 @@
-$["portal","login","resources"]:
-{
-    "favorites.resources": ["apply-login.html"]
-}{
-  "favorites.resources": [
-    "apply-login.html"
-  ]
-}
